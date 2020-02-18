@@ -12,10 +12,11 @@ nomicmu_packs_dir('./nomicmu_packs').
 user:file_search_path(nomicmu_packs, Dir) :- 
   nomicmu_packs_dir(Dir).
 
+
+install_nomicmu_pack(Name):- notrace(catch(gethostname(gitlab),_,fail)), pack_property(Name,_), !.
 install_nomicmu_pack(Name):- 
-  pack_property(Name,_)
-   ->true;
-   pack_install(Name, [package_directory(nomicmu_packs)]). 
+  format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
+  pack_install(URL, [upgrade(true),interactive(false),package_directory(nomicmu_packs)]). 
 
 
 install_nomicmu_packs:- 
@@ -28,9 +29,16 @@ install_nomicmu_packs:-
    attach_packs(R,[duplicate(replace)]),
    maplist(install_nomicmu_pack,
      [ logicmoo_nlu,
-       % pfc,
-       % dictoo,
-       % prologmud_samples,
+       logicmoo_base,
+       wam_common_lisp,
+       pfc,
+       dictoo, 
+       gvar_syntax,
+       predicate_streams,
+       instant_prolog_docs,
+       multimodal_dcg,
+       %prologmud,
+       %prologmud_samples,
        logicmoo_utils]),   
    pack_list_installed.
 
@@ -44,9 +52,13 @@ compile_nomicmu_packs.
   true.
 
 %  stored in logicmoo_nlu currently
-:- ensure_loaded(library(nomic_mu)).
+:- system:reexport(library(nomic_mu)).
 
-:- srv_mu(4004).
+%:- mu:srv_mu(4004).
+
+:- prolog.
+
+
 
    
 
