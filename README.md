@@ -9,7 +9,7 @@ The world is described in English by players and the game server does its best t
 For example you can take the text from here: https://udel.edu/~os/riddle.html
 
 ````
-There are 5 houses in five different colors.
+There are 5 houses with five different colors.
 In each house lives a person with a different nationality.
 These five owners drink a certain type of beverage, smoke a certain brand of cigar and keep a certain pet.
 No owners have the same pet, smoke the same brand of cigar or drink the same beverage.
@@ -95,9 +95,7 @@ except they have no one logged in and controlling them.
 
 
 
-
-
-
+      
 
 
 
@@ -113,6 +111,9 @@ A person or NPC can began processing in a private state-space.
 
 Each player/NPC has their own MU running in which is their `memory/2`.  As they move in this .. it also moves in the outer-MUD.
 The outter-MUD sends precepts as they go which is captured by inner-MUD to `memory/2`
+
+
+
 
 
 
