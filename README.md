@@ -1,6 +1,6 @@
-= NomicMU =
+# NomicMU
 
-NomicMU is an online system for multiplayer interactive fiction based.
+NomicMU is an online system for multiplayer interactive fiction where every player may change how the game is played.
 
 The world is described in English by players and the game server does its best to make those work correctly.
 
@@ -35,27 +35,23 @@ Or you may walk arround the houses and find the fish for yourself.
 Since it is multiplayer other people can add and change the rules however the teams may like.
 
 
-= Dungion Master AI =
+# Dungion Master AI 
 
-The NomicMU console is like a dungion master it uses some contrived SHRDLU-like AI in ordewr to understand the english and convert it into a text adventure world
-TODO write more
+The NomicMU console is like a dungion master it uses some contrived SHRDLU-like AI in order to understand the players english and convert this into something like a text adventure world.
 
+What you can do with the DM.
 
-= NPC AI =
+`dmiles wants to`> `be in the kitchen.`
 
+The DM can be questioned about details of the world.
 
+`dmiles wants to`> `be told where he is.`
 
+````TODO write more````
 
+# NPC AI
 
+NPCs are non-player characters they are just like human characters except they have no one logged in and controlling them.  However you may log into any one of them and take control.
+Or simply occupy their mind knowing, seeing and hearing what they do.
 
-
-
-
-
-In that respect it differs from almost every other game. The primary activity of NomicMU is stating changes in the rules
-
-
-
-
-Any NomicMU user can create realms and make them available for other people to play. What kind of realm you make is up to you: make an open world where any number of players can wander around or go on quests, or plot out a story where players can act out the roles of the lead characters. This new medium blends the shared experience of a MUD with the narrative tools of traditional interactive fiction, and there's plenty of room to experiment with styles that haven't been tried before.
            
