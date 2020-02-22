@@ -104,10 +104,11 @@ except they have no one logged in and controlling them.
 # Project Progress and Goals
 
 Initialy NomicMU was PrologMUD which was created to ensure the world was stable and working (but not using English).
-NomicMU extends PrologMUD with two features: English and Forking. The English is as described above.
+NomicMU extends https://github.com/TeamSPoon/PrologMUD with two features: English and Forking. The English is as described above.
 The forking allows potential commands and AI to see if something makes sense in the world before commiting it back to PrologMUDs global state.
-A person or NPC can began processing in a private state-space.  Also it is used for parsing things like:  
-"Joe belives the rocks are trying to tell him something".  This allows a private world in Joe props/2 database where the rocks really are.
+A person or NPC can began processing in a private state-space.  
+Also it is used for parsing things like:   `Joe belives the rocks are trying to tell him something` .  
+This allows a private world in  `props(joe,[memory([...])...])` database where the rocks really are.
 
 
 Instead is uses the language that NomicMU converts your English into.
