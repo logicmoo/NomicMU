@@ -49,9 +49,52 @@ The DM can be questioned about details of the world.
 
 ````TODO write more````
 
+# Players
+
+When you first log in you may create yourself as a player character 
+
+
+````
+someone wants to> create player named dmiles.
+dmiles wants to> look.
+dmiles looks.
+...
+````
+
+or take over the psychi of a Non-player-character.
+
+````
+someone wants to> possess player named floyd.
+floyd calls behavour script: do_something(floyd).
+floyd wants to be somewhere he hasnt been yet.
+floyd looks.
+floyd notices there are exits: north and south.
+floyd knows there is the pantry to the north.
+floyd does not know where he will be if he goes south.
+floyd goes south.
+...
+````
+
+````
+someone wants to> list types
+player
+robot
+screen_door
+rock
+area
+...
+````
+
+
+
+
+
+
 # NPC AI
 
 NPCs are non-player characters they are just like human characters except they have no one logged in and controlling them.  However you may log into any one of them and take control.
 Or simply occupy their mind knowing, seeing and hearing what they do.
+
+
 
            
