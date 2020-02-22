@@ -61,7 +61,7 @@ dmiles looks.
 ...
 ````
 
-or take over the psychi of a Non-player-character.
+or take over the psychi of a Non-player-character. You occupy their mind knowing, beliving, seeing and hearing what they do.
 
 ````
 someone wants to> possess player named floyd.
@@ -78,6 +78,7 @@ floyd goes south.
 ````
 someone wants to> list types
 player
+person
 robot
 screen_door
 rock
@@ -85,15 +86,34 @@ area
 ...
 ````
 
-
-
-
-
-
 # NPC AI
 
-NPCs are non-player characters they are just like human characters except they have no one logged in and controlling them.  However you may log into any one of them and take control.
-Or simply occupy their mind knowing, seeing and hearing what they do.
+NPCs are non-player characters they are just like human characters (isntances of persons)
+except they have no one logged in and controlling them.
+
+
+
+
+
+
+
+
+
+
+
+# Project Progress and Goals
+
+Initialy NomicMU was PrologMUD which was created to ensure the world was stable and working (but not using English).
+NomicMU extends PrologMUD with two features: English and Forking. The English is as described above.
+The forking allows potential commands and AI to see if something makes sense in the world before commiting it back to PrologMUDs global state.
+A person or NPC can began processing in a private state-space.  Also it is used for parsing things like:  
+"Joe belives the rocks are trying to tell him something".  This allows a private world in Joe props/2 database where the rocks really are.
+
+
+Instead is uses the language that NomicMU converts your English into.
+NomicMU is a 
+
+
 
 
 
