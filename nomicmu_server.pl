@@ -52,11 +52,11 @@ compile_nomicmu_packs.
   true.
 
 %  stored in logicmoo_nlu currently
-:- system:reexport(library(nomic_mu)).
+:- user:ensure_loaded(library(nomic_mu)).
 
 %:- mu:srv_mu(4004).
 
-:- prolog.
+%:- prolog.
 
 
 
