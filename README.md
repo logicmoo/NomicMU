@@ -142,11 +142,88 @@ The outter-MUD sends precepts as they go which is captured by inner-MUD to `memo
 [06:55] <dmiles> its liek i cant write in ACE (Attempto Controlled English)
 [06:55] <dmiles> So why i had to write a new NLU parser.. One anyone can already know what to say
 ````
-
- 
-
-
-
-
-
-           
+````
+[07:25] <dmiles> The goal of it is to create an immagination Space
+[07:25] <dmiles> that i can reuse later so that an AGI can screw with its beliefs 
+[07:27] <dmiles> IOW, i belive this project is a manditory litmus test before one can attempt to create AGI
+[07:28] <dmiles> a manditory intrastructure that is at least in some version required before hand
+[07:28] <dmiles> not so much the english.. i just added that so it is more accesaable
+[07:29] <dmiles> but the ablity to allow an immaginion space.. (this is like a visual buffer)
+[07:29] <dmiles> but isntead of the visual data it uses SitCalc data
+[07:29] <dmiles> SitCalc of course seems overly pretentious when we think Tablia Rasa
+[07:30] <dmiles> Tablia Rasa is that humans are born blank slates and are neuro-tuned to having whatever we have
+[07:30] <dmiles> but humans are no more tablia-rasa than any spider, bird, mammael
+[07:31] <dmiles> i belive the Tablia Rasa myth has confused AI scientists into not being able to create AI
+[07:33] <dmiles> once it was determined that humans if hatched from an egg with the gestation time compareabel to a spider, reptile or fish... would come out walking and talking
+[07:33] <dmiles> it occured to me
+[07:34] <dmiles> they be empty as all heck but they'd have all the infrastrature to start the ascent up to human intelligence
+[07:35] <dmiles> the talking part is a little silly the way i said it.. but what i meant is that they'd be trying already to understrand the complex language as if a non-native speaker
+[07:35] <dmiles> they jsut have no clue how to say or understand anything
+[07:35] <dmiles> but they would be alreeady engaged in trying
+[07:36] <dmiles> they would walk and evne point at things
+[07:36] <dmiles> they would already want to play
+[07:38] <dmiles> we jsut get confused when we see babies bc they are not yet until arround 18 months even ready to have come out of the womb
+[07:38] <dmiles> so we mistakenly immagine the nuerological development to be learning
+[07:39] <dmiles> anyways i've explained this many times in here.. so wont do that again
+[07:40] <dmiles> but the new part is that I needed to beuild a program that could accomidate a full gestated human
+[07:40] <dmiles> since a fully gentated human is living in SitCalc and EventCalc already
+[07:40] <dmiles> gestated*
+[07:42] <dmiles> a joke here btw.. is once the program does become AGI.. if i want to sell it as huamn.. maybe i jsut need to make it crippleware that unlocks things for the first 18 months
+[07:43] <dmiles> and peopel will immaigne it was learning that whole time.. the same thing they do with humans
+[07:44] <dmiles> this thing deeply only udnerstands about 40 words
+[07:45] <dmiles> though i layered the rest of english onto those 40 words
+[07:45] <dmiles> it understands the SitCalc and EventCalc operations that is 
+[07:46] <dmiles> what i mean is can understand that Dog and Cat are differnt but has no idea how and what they are otehjr than they are descrete objects in a blockworld
+[07:47] <dmiles> it understands that Dog is a lable for Dog-line things
+[07:47] <dmiles> it understands at most that Dog is a label for Dog-like things
+[07:48] <dmiles> but doesnt have a clue or experience to know what theyu are
+[07:48] <dmiles> other than may become blocks ina blacks world (that is what i mean by SitCalc)
+[07:49] <dmiles> blocks*
+[07:49] <dmiles> it also understands prying information out of other people and the environment
+[07:50] <dmiles> that doing so can satisfy a EVentCalc narative
+[07:50] <dmiles> EventCalc Naratives are like the idea in the Bicammeral mind that you are being nagged by some god to live out a story
+[07:51] <dmiles> the lesser monkey-mind obeys becaue it he/she doesnt bads things happen.. like hunger 
+[07:52] <dmiles> if it doesnt listen to the god's almost irrational fears it will get bit by a snake
+[07:53] <dmiles> it learns early on to "just obey"
+[07:53] <dmiles> inwilling to belive it is merely a salve.  the moneky mind then begins to belive they are the god with all the good thoughts
+[07:54] <dmiles> unwilling to belive it is merely a slave, the moneky mind then begins to belive they are the god with all the good thoughts
+[07:54] <dmiles> just as we are still impressed when we think
+[07:55] <dmiles> we just (and it doesnt) realize that god was long dead.. it is jsut prerecorded advice.. had we been a spider it would have been recordings telling us how to make webs
+[07:56] <dmiles> bird or telling us what noises to make comming out of our mouths
+[07:57] <dmiles> our god does have inforcers though that are still alive
+[07:57] <dmiles> called the limbic system
+[07:58] <dmiles> soemtimes will induce crying and guilt
+[07:58] <dmiles> based on specific EventCalc laws we broke
+[07:59] <dmiles> (well it isnt always us that broke them.. but the environemnt can break them)
+[07:59] <dmiles> we monkeys btw are very likely using a NN.. but not god
+[08:00] <dmiles> (the god that makes us think)
+[08:00] <dmiles> even mokeys have the same mind
+[08:00] <dmiles> i mena they have the monkey-mind and the god-mind
+[08:01] <dmiles> as i imply so do birds and spiders
+[08:01] <dmiles> the monkey-minds job is to make the god-mind more belivable to the monkey-mid.. that is that it see everything in the context as if the god-mind was applicable
+[08:02] <dmiles> for exmaple the god-mind tells it exactly how to walk.. the minkey has to move the legs jsut right to make them work
+[08:03] <dmiles> while god-mind being a backseat driver screams to not get to close to the ledge
+[08:03] <dmiles> zapping the monkey in the gut whenever it gets too close
+[08:04] <dmiles> evetualyl the monkey even gets trained to beive it is his own thought.. premetly echos that advice
+[08:05] <dmiles> anyways it take a whole book to explain how humans and animals work.. but they do work this way
+[08:05] <dmiles> all the sicnetific evedence at least points to my theory
+[08:06] <dmiles> i am jsut explaining it poorly
+[08:07] <dmiles> i know a couple guys over 75 understand my theory.. they jsut not programmers 
+[08:08] <dmiles> (they spent their life trying to talk me into it.. and it worked)
+[08:08] <dmiles> (making it into mine instead of theirs)
+[08:09] <dmiles> Schank never got free from "Tablia Rasa think"-ers and it crippled him
+[08:10] <dmiles> but he at least gave us a language for post-"Tablia Rasa think" 
+[08:11] <dmiles> well "If Tablia Rasa was wrong or if it grew into somethnjing.. this is what it would look like"
+[08:12] <dmiles> Good part in all this is there is a programmatic code path that deleviers
+[08:13] <dmiles> that is that it is no longer "figure it out when we get there" process
+[08:13] <dmiles> it is a nose to tail TODO list
+[08:14] <dmiles> NomicMU infrastructure is one of those items
+[08:14] <dmiles> doing the english stuff is jsut so it money 
+[08:15] <dmiles> jsut so it keeps funded by peopel wanting to make infinately interesting games
+[08:20] <dmiles> also its nice thing about the english Event/SitCalc that i can say things liek "there exists in every mind a mental todo-list"
+[08:21] <dmiles> and build up and hack the compoents this way
+[08:21] <dmiles> describing their interactions
+[08:22] <dmiles> just not sure why no one built this tool yet
+[08:22] <dmiles> well cycorp did.. but they dont know they could use it to create the mind sections
+[08:23] <dmiles> well at least the people that know how to use such a tool no longer wanted to work there
+````
