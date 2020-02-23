@@ -209,7 +209,7 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:57] <dmiles> called the limbic system
 [07:58] <dmiles> sometimes will induce crying and guilt based on specific EventCalc laws we broke
 [07:59] <dmiles> (well it isn't always us that broke them.. but the environment can break them)
-[07:59] <dmiles> we monkeys btw are very likely using a NN.. but not god
+[07:59] <dmiles> Our monkey-minds btw are likely to use connectist/NN AI.. but not our god-mind
 [08:00] <dmiles> (the god that makes us think)
 [08:00] <dmiles> even apes have the same monkey-mind and the god-mind
 [08:01] <dmiles> as i imply so do birds and spiders
