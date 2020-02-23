@@ -140,7 +140,8 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [06:38] <dmiles> to onSpawn(eastOf(vHere,tStoreRoom)).
 [06:40] <dmiles> vHere is converted to wherever the location context was
 [06:43] <dmiles> i sort of think the NomicMU has been everyone's fantasy for decades. 
-[06:48] * dmiles i think it is crazy that in 30 years no one turned our NLU/expert systems tech into a game maker
+[06:48] * dmiles i think it is crazy that in 30 years no one turned our NLU/expert systems tech into …
+                                       a game maker
 [07:49] <dmiles> silly such a game was not published and made commonplace.. 
 [07:49] <dmiles> as it would be loved by millions of people
 [06:52] <dmiles> well there is Guncho.. but it used inform7 
@@ -184,7 +185,8 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:44] <dmiles> this thing deeply only understands about 40 concepts
 [07:45] <dmiles> though i layered the rest of english onto those concepts
 [07:45] <dmiles> it understands the SitCalc and EventCalc operations that is 
-[07:46] <dmiles> what i mean is can understand that Dog and Cat are different but has no idea how and what they are
+[07:46] <dmiles> what i mean is can understand that Dog and Cat are different 
+[07:46] <dmiles> but has no idea how and what they are
 [07:33] <dmiles> other than they are discrete objects in a block world
 [07:47] <dmiles> it understands that Dog is a label for Dog-line things
 [07:47] <dmiles> it understands at most that Dog is a label for Dog-like things
