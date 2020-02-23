@@ -109,7 +109,9 @@ A person or NPC can begin processing in a private state-space.
 Each player/NPC has their own MU running in which is their `memory/2`.  As they move in this .. it also moves in the outer-MUD.
 The outer-MUD sends precepts as they go which is captured by inner-MUD to `memory/2`
 
+# Telegram Chat
 
+https://t.me/LogicMoo
 
 
 # IRC Explanation
