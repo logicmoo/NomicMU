@@ -145,7 +145,7 @@ The outter-MUD sends precepts as they go which is captured by inner-MUD to `memo
 [06:53] <dmiles> if NomicMU was to load Inform7 files the lack of strictness woudl leak all over
 [06:54] <dmiles> Nothing wrong with inform7.. but i cant write in it out of the gate
 [06:55] <dmiles> its liek i cant write in ACE (Attempto Controlled English)
-[06:55] <dmiles> So why i had to write a new NLU parser
+[06:55] <dmiles> So why i had to write a new NLU parser.. One anyone can already know what to say
 ````
 
  
