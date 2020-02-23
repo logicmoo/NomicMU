@@ -115,9 +115,9 @@ The outter-MUD sends precepts as they go which is captured by inner-MUD to `memo
 
 
 
-
+# IRC Explaination
 ````
-06:19] <dmiles> here is the idea i had for https://github.com/TeamSPoon/NomicMU
+[06:19] <dmiles> here is the idea i had for https://github.com/TeamSPoon/NomicMU
 [06:20] <dmiles> there could be a rougelike interface running on a different port from the text server
 [06:21] <dmiles> placement of the houses there btw do happen inside on the the 9x9s
 [06:24] <dmiles> in the rougelike interface of PRologMUD i was using these symbols:  https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_objs.pfc.pl
