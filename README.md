@@ -39,15 +39,15 @@ Since it is multiplayer other people can add and change the rules however the te
 
 The NomicMU console is like a dungion master it uses some contrived SHRDLU-like AI in order to understand the players english and convert this into something like a text adventure world.
 
-What you can do with the DM.
-
-`dmiles wants to`> `be in the kitchen.`
-
-The DM can be questioned about details of the world.
-
-`dmiles wants to`> `be told where he is.`
-
-````TODO write more````
+````
+someone wants to> list types
+player
+person
+robot
+screen_door
+rock
+area
+...
 
 # Players
 
@@ -60,6 +60,12 @@ dmiles wants to> look.
 dmiles looks.
 ...
 ````
+
+`dmiles wants to`> `be in the kitchen.`
+
+The DM can be questioned about details of the world.
+
+`dmiles wants to`> `be told where he is.`
 
 or take over the psychi of a Non-player-character. You occupy their mind knowing, beliving, seeing and hearing what they do.
 
@@ -74,28 +80,17 @@ floyd does not know where he will be if he goes south.
 floyd goes south.
 ...
 ````
-
-````
-someone wants to> list types
-player
-person
-robot
-screen_door
-rock
-area
-...
-````
-
 # NPC AI
 
 NPCs are non-player characters they are just like human characters (isntances of persons)
 except they have no one logged in and controlling them.
 
+They work using Event Calculus assertions that gave them templetes to follow .. they re-arrange these templates so that they make sense to the current states they are in
 
 
+````TODO write more````
 
-
-      
+    
 
 
 
@@ -134,11 +129,9 @@ The outter-MUD sends precepts as they go which is captured by inner-MUD to `memo
 [06:43] <dmiles> i sort of think the NomicMU has been everyones fantasy for decades. and if it wasnt their fantasy, they assumed such a think already existed, or they assumed something like that was completely impossible
 [06:44] <dmiles> for example if they vaguely heard of Inform7 they might think it already existed 
 [06:45] <dmiles> of If they didnt know about computers they;d think "Of course that would been easy for computers .. peopel do it all the time"
-[06:46] <dmiles> if they studied AI, they'd think it was impossible but would been really cool
-[06:46] <dmiles> if they studied how to write games that is
-[06:46] <dmiles> studied AI nowadays.. they think it is too far off
+[06:46] <dmiles> if they studied computers or AI nowadays, they'd think it was impossible or too far off
 [06:47] <dmiles> studied AI like I did 30 years ago.. stuff like this is easy
-[06:48] * dmiles i think it is crazy that in 30 years no one tured our tech into a game
+[06:48] * dmiles i think it is crazy that in 30 years no one turned our NLU/expert systems tech into a game maker
 [06:50] <dmiles> i am probably wrong abotu those opiniopns but the main thing is it is silly such a game was not published and made comon place.. as it would be loved by millions of people
 [06:52] <dmiles> well there is Guncho.. but it used inform7 
 [06:52] <dmiles> NomicMU looks liek Inform7 but is not strict
