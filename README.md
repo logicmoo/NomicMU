@@ -133,14 +133,16 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [06:32] <dmiles> so for example:  onSpawn(eastOf(vHere,tStoreRoom)).
 [06:32] <dmiles> will place that grid next to the current 9x9
 [06:36] <dmiles> the .pfc.pl means its in a special  With-Prolog-Forward-Chainng
-[07:36] <dmiles> which asserts triggers logic that constructs the world based on the file contents
-[06:37] <dmiles> onSpawn are ran right at the start of the world so that all the background data for the world is already loaded
+[06:36] <dmiles> which asserts triggers logic that constructs the world based on the file contents
+[06:37] <dmiles> onSpawn are ran right at the start of the world so that all the background data for the world is 
+[06:37] <dmiles> already loaded
 [06:38] <dmiles> NomicMUD really the trick is just that it converts "There is a storeroom east of here"
-[07:33] <dmiles> to onSpawn(eastOf(vHere,tStoreRoom)).
+[06:38] <dmiles> to onSpawn(eastOf(vHere,tStoreRoom)).
 [06:40] <dmiles> vHere is converted to wherever the location context was
 [06:43] <dmiles> i sort of think the NomicMU has been everyone's fantasy for decades. 
 [06:48] * dmiles i think it is crazy that in 30 years no one turned our NLU/expert systems tech into a game maker
-[07:49] <dmiles> silly such a game was not published and made commonplace.. as it would be loved by millions of people
+[07:49] <dmiles> silly such a game was not published and made commonplace.. 
+[07:49] <dmiles> as it would be loved by millions of people
 [06:52] <dmiles> well there is Guncho.. but it used inform7 
 [06:52] <dmiles> NomicMU looks like Inform7 but is not strict
 [06:53] <dmiles> if NomicMU was to load Inform7 files the lack of strictness woudl leak all over
@@ -159,15 +161,16 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:29] <dmiles> SitCalc of course seems overly pretentious when we think Tablia Rasa
 [07:30] <dmiles> Tabula Rasa is that humans are born blank slates and are neuro-tuned to having whatever we have
 [07:30] <dmiles> but humans are no more tabula-rasa than any spider, bird, mammael
-[07:31] <dmiles> i belive the Tabula Rasa myth has confused AI scientists into not being able to create AI
+[07:31] <dmiles> i believe the Tabula Rasa myth has confused AI scientists into not being able to create AI
 [07:33] <dmiles> once it was determined that humans if hatched from an egg with 
-[07:33] <dmiles> the gestation time comparable to a spider, reptile or fish... would come out walking and trying already to talk
-[07:33] <dmiles> it occurred to me
-[07:34] <dmiles> they be empty as all heck but they'd have all the infrastructure to start the ascent up to human intelligence
-[07:35] <dmiles> they'd be trying already to understand the complex language with no clue how to say or understand anything
+[07:33] <dmiles>the gestation time comparable to a spider, reptile or fish... would come out
+[07:33] <dmiles>  walking and trying to understand the world   it occurred to me
+[07:34] <dmiles> they be empty as all heck but they'd have all the infrastructure to start the ascent 
+[07:35] <dmiles> they'd be trying already to understand the complex language
+[07:35] <dmiles> with no clue how to say or understand anything
 [07:35] <dmiles> but they would be already engaged in trying
 [07:36] <dmiles> they would already want to play
-[07:38] <dmiles> I was trying to say we just got confused when we saw babies bc they are not yet until around 18 months 
+[07:38] <dmiles> I was trying to say we just got confused when we saw babies bc they are not neuro-functional
 [07:38] <dmiles> even ready to have come out of the womb
 [07:38] <dmiles> so we mistakenly immagine the neurological development to be learning
 [07:39] <dmiles> anyways i've explained this many times in here.. so won't do that again
@@ -215,7 +218,8 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [08:03] <dmiles> zapping the monkey in the gut whenever it gets too close
 [08:04] <dmiles> eventually the monkey even gets trained to believe it is his own thought..
 [08:04] <dmiles> can even reply that advice like a song in the head
-[08:05] <dmiles> anyways it take a few whole books to explain how humans and animals work.. but they do work this way
+[08:05] <dmiles> anyways it takes a few whole books to explain how humans and animals work.. 
+[08:05] <dmiles> but they do work this way
 [08:05] <dmiles> all the evidence at least points to this theory (Script-theory)
 [08:06] <dmiles> i am just explaining it poorly
 [08:07] <dmiles> i know a couple guys over 75 understand my theory.. they just not programmers anymore
