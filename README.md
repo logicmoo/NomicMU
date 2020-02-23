@@ -134,8 +134,8 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [06:32] <dmiles> will place that grid next to the current 9x9
 [06:36] <dmiles> the .pfc.pl means its in a special  With-Prolog-Forward-Chainng
 [06:36] <dmiles> which asserts triggers logic that constructs the world based on the file contents
-[06:37] <dmiles> onSpawn are ran right at the start of the world so that all the background data for the world is 
-[06:37] <dmiles> already loaded
+[06:37] <dmiles> onSpawn are ran right at the start of the world
+[06:37] <dmiles>  so that all the background data for the world is already loaded
 [06:38] <dmiles> NomicMUD really the trick is just that it converts "There is a storeroom east of here"
 [06:38] <dmiles> to onSpawn(eastOf(vHere,tStoreRoom)).
 [06:40] <dmiles> vHere is converted to wherever the location context was
@@ -174,8 +174,9 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:38] <dmiles> even ready to have come out of the womb
 [07:38] <dmiles> so we mistakenly immagine the neurological development to be learning
 [07:39] <dmiles> anyways i've explained this many times in here.. so won't do that again
-[07:40] <dmiles> but the new part is that I needed to build a program that could accommodate a full gestated human
-[07:40] <dmiles> since a fully gestated human is living in SitCalc and EventCalc already
+[07:40] <dmiles> but the new part is that I needed to build a program that could accommodate a …
+[07:40] <dmiles>  fully hatched (gestated) human
+[07:40] <dmiles>  living in not just SitCalc, but EventCalc already
 
 [07:42] <dmiles> a joke here btw.. is once the program does become AGI.. if i want to sell it as human
 [07:42] <dmiles>  maybe i just need to make it crippleware that unlocks things for the first 18 months
@@ -196,8 +197,8 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:51] <dmiles> the lesser monkey-mind obeys because if he/she doesnt bad things happen!.. like hunger 
 [07:52] <dmiles> also if it doesn't listen to the god's almost irrational fears it will get bit by a snake
 [07:53] <dmiles> it learns early on to "just obey"
-[07:54] <dmiles> unwilling to believe it is merely a slave, the monkey mind then begins to believe they are the god
-[07:54] <dmiles> with all the good thoughts
+[07:54] <dmiles> unwilling to believe it is merely a slave, the monkey mind then begins to believe 
+[07:54] <dmiles> they are the god with all the good thoughts
 [07:54] <dmiles> just as we are still impressed when we think
 [07:55] <dmiles> we just (and it doesn't) realize that god was long dead.. it is just prerecorded advice.. 
 [07:55] <dmiles> had we been a spider it would have been recordings telling us how to make webs
@@ -205,7 +206,7 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [07:57] <dmiles> our god does have enforcers to.. that are still alive
 [07:57] <dmiles> called the limbic system
 [07:58] <dmiles> sometimes will induce crying and guilt based on specific EventCalc laws we broke
-[07:59] <dmiles> (well it isnt always us that broke them.. but the environment can break them)
+[07:59] <dmiles> (well it isn't always us that broke them.. but the environment can break them)
 [07:59] <dmiles> we monkeys btw are very likely using a NN.. but not god
 [08:00] <dmiles> (the god that makes us think)
 [08:00] <dmiles> even apes have the same monkey-mind and the god-mind
@@ -214,7 +215,7 @@ https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_o
 [08:01] <dmiles> that is that it bends everything in the context as if the god-mind was applicable
 [08:02] <dmiles> for example the god-mind tells it exactly how to walk.. the monkey-mind has to move the
 [08:02] <dmiles> legs just right to make them work
-[08:03] <dmiles> while god-mind being a backseat driver screams to not get to close to the ledge
+[08:03] <dmiles> while god-mind being a backseat driver screams to not get too close to the ledge
 [08:03] <dmiles> zapping the monkey in the gut whenever it gets too close
 [08:04] <dmiles> eventually the monkey even gets trained to believe it is his own thought..
 [08:04] <dmiles> can even reply that advice like a song in the head
