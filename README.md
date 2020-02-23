@@ -116,7 +116,37 @@ The outter-MUD sends precepts as they go which is captured by inner-MUD to `memo
 
 
 
-
+````
+06:19] <dmiles> here is the idea i had for https://github.com/TeamSPoon/NomicMU
+[06:20] <dmiles> there could be a rougelike interface running on a different port from the text server
+[06:21] <dmiles> placement of the houses there btw do happen inside on the the 9x9s
+[06:24] <dmiles> in the rougelike interface of PRologMUD i was using these symbols:  https://github.com/TeamSPoon/prologmud/blob/master/prolog/prologmud/objs/basic_objs.pfc.pl
+[06:25] <dmiles> here was exmple of world object populator:  https://github.com/TeamSPoon/prologmud_samples/blob/master/prolog/prologmud_sample_games/src_game_nani/objs_misc_household.pfc.pl
+[06:27] <dmiles> exmaple of a "Gridded" area https://github.com/TeamSPoon/prologmud_samples/blob/master/prolog/prologmud_sample_games/src_game_wumpus/maze.map.pfc.pl
+[06:30] <dmiles> here to https://github.com/TeamSPoon/prologmud_samples/blob/master/prolog/prologmud_sample_games/src_game_startrek/holodeck/predator.map.pfc.pl
+[06:31] <dmiles> and https://github.com/TeamSPoon/prologmud_samples/blob/master/prolog/prologmud_sample_games/src_game_startrek/holodeck/vacuum.map.pfc.pl
+[06:32] <dmiles> so for example:  onSpawn(eastOf(vHere,tStoreRoom)).
+[06:32] <dmiles> will place that grid next to the current 9x9
+[06:36] <dmiles> the .pfc.pl means its in a special  With-Prolog-Forward-Chainng which asserts triggers logic that constucts the world based on the file contents
+[06:37] <dmiles> onSpawn are ran right at the start of the world so that all the background data for the world is already loaded
+[06:38] <dmiles> NomicMUD really the trick is jsut that is converts "There is a stroreroom east of here" to onSpawn(eastOf(vHere,tStoreRoom)).
+[06:40] <dmiles> vHere is converted to where ever the location context was
+[06:43] <dmiles> i sort of think the NomicMU has been everyones fantasy for decades. and if it wasnt their fantasy, they assumed such a think already existed, or they assumed something like that was completely impossible
+[06:44] <dmiles> for example if they vaguely heard of Inform7 they might think it already existed 
+[06:45] <dmiles> of If they didnt know about computers they;d think "Of course that would been easy for computers .. peopel do it all the time"
+[06:46] <dmiles> if they studied AI, they'd think it was impossible but would been really cool
+[06:46] <dmiles> if they studied how to write games that is
+[06:46] <dmiles> studied AI nowadays.. they think it is too far off
+[06:47] <dmiles> studied AI like I did 30 years ago.. stuff like this is easy
+[06:48] * dmiles i think it is crazy that in 30 years no one tured our tech into a game
+[06:50] <dmiles> i am probably wrong abotu those opiniopns but the main thing is it is silly such a game was not published and made comon place.. as it would be loved by millions of people
+[06:52] <dmiles> well there is Guncho.. but it used inform7 
+[06:52] <dmiles> NomicMU looks liek Inform7 but is not strict
+[06:53] <dmiles> if NomicMU was to load Inform7 files the lack of strictness woudl leak all over
+[06:54] <dmiles> Nothing wrong with inform7.. but i cant write in it out of the gate
+[06:55] <dmiles> its liek i cant write in ACE (Attempto Controlled English)
+[06:55] <dmiles> So why i had to write a new NLU parser
+````
 
  
 
