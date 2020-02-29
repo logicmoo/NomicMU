@@ -13,21 +13,23 @@ user:file_search_path(nomicmu_packs, Dir) :-
   nomicmu_packs_dir(Dir).
 
 
-install_nomicmu_pack(Name):- notrace(catch(gethostname(gitlab),_,fail)), pack_property(Name,_), !.
-install_nomicmu_pack(Name):- 
+find_or_install_nomicmu_pack(Name):- 
   format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
   pack_install(URL, [upgrade(true),interactive(false),package_directory(nomicmu_packs)]). 
 
 
-install_nomicmu_packs:- 
+attach_packs:- 
    nomicmu_packs_dir(LPD),
    make_directory_path(LPD), 
    absolute_file_name(LPD,R,[file_type(directory)]),
    (R==LPD -> true ;
      (retractall(nomicmu_packs_dir(LPD)),
        asserta(nomicmu_packs_dir(R)))),
-   attach_packs(R,[duplicate(replace)]),
-   maplist(install_nomicmu_pack,
+   attach_packs(R,[duplicate(replace)]).
+
+install_nomicmu_packs:-
+   attach_packs,
+   maplist(find_or_install_nomicmu_pack,
      [ logicmoo_nlu,
        logicmoo_base,
        wam_common_lisp,
@@ -35,6 +37,7 @@ install_nomicmu_packs:-
        dictoo, 
        gvar_syntax,
        predicate_streams,
+       body_reordering,
        instant_prolog_docs,
        multimodal_dcg,
        %prologmud,
@@ -50,6 +53,8 @@ compile_nomicmu_packs.
   install_nomicmu_packs ->
   compile_nomicmu_packs -> 
   true.
+
+:- attach_packs.
 
 %  stored in logicmoo_nlu currently
 :- user:ensure_loaded(library(nomic_mu)).
