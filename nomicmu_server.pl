@@ -2,6 +2,7 @@
 
 :- use_module(library(prolog_pack)).
 
+/*
 :- dynamic(nomicmu_packs_dir/1).
 nomicmu_packs_dir('./nomicmu_packs').
   
@@ -11,11 +12,7 @@ nomicmu_packs_dir('./nomicmu_packs').
 %  user:file_search_path(nomicmu_packs_dir, Dir).
 user:file_search_path(nomicmu_packs, Dir) :- 
   nomicmu_packs_dir(Dir).
-
-
-find_or_install_nomicmu_pack(Name):- 
-  format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
-  pack_install(URL, [upgrade(true),interactive(false)]). 
+*/
 
 /*
 attach_packs:- 
@@ -27,6 +24,10 @@ attach_packs:-
        asserta(nomicmu_packs_dir(R)))),
    attach_packs(R,[duplicate(replace)]).
 */
+find_or_install_nomicmu_pack(Name):- 
+  format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
+  pack_install(URL, [upgrade(true),interactive(false)]). 
+
 install_nomicmu_packs:-   
    maplist(find_or_install_nomicmu_pack,
      [ logicmoo_nlu,
