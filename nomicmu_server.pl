@@ -15,9 +15,9 @@ user:file_search_path(nomicmu_packs, Dir) :-
 
 find_or_install_nomicmu_pack(Name):- 
   format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
-  pack_install(URL, [upgrade(true),interactive(false),package_directory(nomicmu_packs)]). 
+  pack_install(URL, [upgrade(true),interactive(false)]). 
 
-
+/*
 attach_packs:- 
    nomicmu_packs_dir(LPD),
    make_directory_path(LPD), 
@@ -26,9 +26,8 @@ attach_packs:-
      (retractall(nomicmu_packs_dir(LPD)),
        asserta(nomicmu_packs_dir(R)))),
    attach_packs(R,[duplicate(replace)]).
-
-install_nomicmu_packs:-
-   attach_packs,
+*/
+install_nomicmu_packs:-   
    maplist(find_or_install_nomicmu_pack,
      [ logicmoo_nlu,
        logicmoo_base,
@@ -48,13 +47,13 @@ install_nomicmu_packs:-
 
 compile_nomicmu_packs.
 
+% :- attach_packs.
 
 :-  
   install_nomicmu_packs ->
   compile_nomicmu_packs -> 
   true.
 
-:- attach_packs.
 
 %  stored in logicmoo_nlu currently
 :- user:ensure_loaded(library(nomic_mu)).
