@@ -25,8 +25,8 @@ attach_packs:-
    attach_packs(R,[duplicate(replace)]).
 */
 find_or_install_nomicmu_pack(Name):- 
-  format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
-  pack_install(URL, [interactive(false)]). 
+  % format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
+  pack_install(Name). 
 
 install_nomicmu_packs:-   
    maplist(find_or_install_nomicmu_pack,
