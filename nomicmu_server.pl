@@ -57,8 +57,8 @@ compile_nomicmu_packs.
 
 
 %  stored in logicmoo_nlu currently
-:- user:ensure_loaded(library(logicmoo_startup)).
-:- during_boot(pack_upgrade).
+:- user:ensure_loaded(library(logicmoo_utils_all)).
+:- during_boot(logicmoo_update).
 :- user:ensure_loaded(library(nomic_mu)).
 %:- mu:srv_mu(4004).
 
