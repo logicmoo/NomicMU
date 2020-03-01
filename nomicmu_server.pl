@@ -26,7 +26,7 @@ attach_packs:-
 */
 find_or_install_nomicmu_pack(Name):- 
   % format(atom(URL),'https://github.com/TeamSPoon/~w.git',[Name]),
-  pack_install(Name,[interactive(fase),silent(false)]). 
+  pack_install(Name,[interactive(false),git(true),silent(false)]). 
 
 install_nomicmu_packs:-   
    maplist(find_or_install_nomicmu_pack,
@@ -57,8 +57,9 @@ compile_nomicmu_packs.
 
 
 %  stored in logicmoo_nlu currently
+:- user:ensure_loaded(library(logicmoo_startup)).
+:- during_boot(pack_upgrade).
 :- user:ensure_loaded(library(nomic_mu)).
-
 %:- mu:srv_mu(4004).
 
 %:- prolog.
